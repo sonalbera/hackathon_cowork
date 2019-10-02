@@ -1,0 +1,19 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "safe route for women",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RitikGarg7/hackathon_nari.git"
+  },
+  "author": "ritik and sonal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RitikGarg7/hackathon_nari/issues"
+  },
+  "homepage": "https://github.com/RitikGarg7/hackathon_nari#readme"
+}
