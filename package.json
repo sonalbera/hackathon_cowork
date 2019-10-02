@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RitikGarg7/hackathon_nari.git"
+    "url": "git+https://github.com/RitikGarg7/hackathon_cowork.git"
   },
   "author": "ritik and sonal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RitikGarg7/hackathon_nari/issues"
+    "url": "https://github.com/RitikGarg7/hackathon_cowork/issues"
   },
-  "homepage": "https://github.com/RitikGarg7/hackathon_nari#readme",
+  "homepage": "https://github.com/RitikGarg7/hackathon_cowork#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "connect-flash": "^0.1.1",
