@@ -1,0 +1,37 @@
+<% include partials/header %>
+<br><br><br>
+<div class="row padding">
+    <div class="col-3"></div>
+    <div class="col-6" align="center">
+        <div class="loginUsers padding">
+            <h1 style="color: white" >
+                LOGIN !
+            </h1>
+            <hr style="color: red">
+            <br>
+            <form method="POST" action="/login">
+                <div>
+                    <div class="col-6">
+                        <input placeholder="username" name="username" class="form1" height="100px">
+                        <br>
+                        <br>
+                        <input type="password" placeholder="password" name="password" class="form1">
+                        <br>
+                        <br>
+                        <input type="submit" value="login" class="form1">
+                    </div>
+                </div>
+            </form>
+            <br>
+            <div>
+                <h5 style="color: white">
+                    New User?
+                    <a style="font-size: 20px; color: #f9f1e9" href="/signup">Register </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

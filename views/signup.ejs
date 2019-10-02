@@ -1,0 +1,46 @@
+<% include ./partials/header %>
+<br><br><br>
+<div class="row padding">
+    <div class="col-3"></div>
+    <div class="col-6" align="center">
+        <div class="loginUsers padding">
+            <h1 style="color: white">
+                SIGNUP
+            </h1>
+            <hr style="color: white">
+            <br>
+            <form method="POST" action="/signup">
+                <div>
+                    <div class="col-6">
+                        <input name="name" placeholder="name" class="form1">
+                        <br>
+                        <br>
+                        <select name="gender" class="form1">
+                            <option value="female">FEMALE</option>
+                            <option value="male">MALE</option>
+                        </select>
+                        <br>
+                        <br>
+                        <input name="mailid" placeholder="E-mail ID" class="form1">
+                        <br>
+                        <br>
+                        <input type="password" name="password" placeholder="password" class="form1">
+                        <br>
+                        <br>
+                        <input type="submit" value="signup" class="form1">
+                    </div>
+                </div>
+            </form>
+            <br>
+            <div>
+                <h5 style="color: white">
+                    Already Registered?
+                    <a style="font-size: 20px; color: #f9f1e9;" href="/login">Login </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
