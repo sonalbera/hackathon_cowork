@@ -32,6 +32,6 @@ app.get("/maps", function(req, res){
 	res.sendFile(path.join(__dirname + '/MapAndLoc.html'));
 });
 
-app.listen(3333,function() {
-	console.log("server started");
-})
+app.listen(process.env.PORT || 3333, function(){
+    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+  });
