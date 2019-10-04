@@ -1,9 +1,9 @@
 # hackathon_cowork
 
-the website is fully deployed at https://bharat-nav.herokuapp.com  
+the website has been fully deployed at https://bharat-nav.herokuapp.com 
 
 Usage-
-to ensure safety of women and there is a ppt attached to the repo which will make you understand every aspect of the project
+This project implementation can ensure safety of women and there is a ppt attached to the repo which will make you understand every aspect of the project
 
 
 
